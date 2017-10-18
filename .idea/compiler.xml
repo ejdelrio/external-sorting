@@ -9,8 +9,8 @@
         <module name="external-sorting" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="external-sorting" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="external-sorting" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
