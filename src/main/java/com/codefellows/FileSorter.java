@@ -10,12 +10,13 @@ public class FileSorter extends ExternalSort{
     private String inputFile;
     private String outputFile;
 
-    @FunctionalInterface
-    public interface Compare {
-        Comparator<String> op(String a, String b);
+    public FileSorter() {
+        super();
+        this.inputFile = "/Users/Eddie/codefellows/501/external-sorting/src/main/resources/test.txt";
+        this.outputFile = "/Users/Eddie/codefellows/501/external-sorting/src/main/resources/result.txt";
+
+        this.defaultcomparator = (String a, String b) -> a.compareTo(b);
     }
-
-
 
 
     public FileSorter(String inputFile, String outputFile) {

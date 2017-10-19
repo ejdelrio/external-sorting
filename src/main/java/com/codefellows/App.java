@@ -30,10 +30,7 @@ public class App
         };
 
 
-        FileSorter fs = new FileSorter(
-                "/Users/Eddie/codefellows/501/external-sorting/src/main/resources/test.txt",
-                "/Users/Eddie/codefellows/501/external-sorting/src/main/resources/result.txt"
-        );
+        FileSorter fs = new FileSorter();
 
         fs.sortTestFile();
 
